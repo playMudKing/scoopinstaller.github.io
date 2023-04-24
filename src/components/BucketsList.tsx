@@ -9,6 +9,7 @@ type Bucket = {
   official: boolean;
 };
 
+
 function BucketsList({ results, keyword }) {
     const keywordRE = new RegExp(`${keyword}`, 'g');  
 
